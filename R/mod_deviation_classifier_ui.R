@@ -52,7 +52,7 @@ deviation_classifier_ui <- function(id) {
         ),
         box(
           title = "Classification Details",
-          status = "default", solidHeader = TRUE, width = 6,
+          status = "info", solidHeader = TRUE, width = 6,
           DT::dataTableOutput(ns("probability_table"))
         )
       )

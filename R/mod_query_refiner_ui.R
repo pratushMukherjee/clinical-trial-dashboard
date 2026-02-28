@@ -77,7 +77,7 @@ query_refiner_ui <- function(id) {
     fluidRow(
       box(
         title = "Query History",
-        status = "default", solidHeader = FALSE, width = 12,
+        status = "info", solidHeader = FALSE, width = 12,
         collapsible = TRUE, collapsed = TRUE,
         DT::dataTableOutput(ns("history_table"))
       )
