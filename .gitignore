@@ -1,0 +1,33 @@
+# R
+.Rhistory
+.Rdata
+.RData
+.Ruserdata
+.Rproj.user
+*.Rproj
+.Renviron
+renv/library/
+renv/local/
+renv/staging/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Models (large binary files -- regenerate with train_classifier.py)
+models/*.pkl
+
+# Misc
+*.log
