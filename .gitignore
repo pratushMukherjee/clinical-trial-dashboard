@@ -16,8 +16,6 @@ __pycache__/
 *.egg-info/
 .venv/
 venv/
-*.pkl
-
 # OS
 .DS_Store
 Thumbs.db
@@ -26,8 +24,8 @@ Thumbs.db
 .vscode/
 .idea/
 
-# Models (large binary files -- regenerate with train_classifier.py)
-models/*.pkl
+# Models (can regenerate with: python python/train_classifier.py)
+# models/*.pkl  # Included in repo for portability
 
 # Misc
 *.log

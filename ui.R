@@ -63,7 +63,7 @@ ui <- dashboardPage(
 
       tabItem(tabName = "deviation_classifier",
         h2("Protocol Deviation Classifier"),
-        p("ML-based classification coming in Phase 5...")
+        deviation_classifier_ui("deviation_classifier")
       ),
 
       tabItem(tabName = "data_chat",
