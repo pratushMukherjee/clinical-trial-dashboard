@@ -58,7 +58,7 @@ ui <- dashboardPage(
 
       tabItem(tabName = "query_refiner",
         h2("AI Query Refiner"),
-        p("AI-powered query refinement coming in Phase 4...")
+        query_refiner_ui("query_refiner")
       ),
 
       tabItem(tabName = "deviation_classifier",
@@ -68,7 +68,7 @@ ui <- dashboardPage(
 
       tabItem(tabName = "data_chat",
         h2("Data Chat"),
-        p("Natural language data exploration coming in Phase 4...")
+        data_chat_ui("data_chat")
       ),
 
       tabItem(tabName = "automated_checks",
