@@ -1,0 +1,102 @@
+/* custom.css -- Dashboard styling */
+
+/* Header tweaks */
+.main-header .logo {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Value box refinements */
+.small-box {
+  border-radius: 8px;
+}
+
+.small-box h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Data table styling */
+.dataTables_wrapper {
+  font-size: 13px;
+}
+
+/* Box improvements */
+.box {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.box-header {
+  border-radius: 8px 8px 0 0;
+}
+
+/* Chat message styling (for Data Chat module) */
+.chat-container {
+  height: 400px;
+  overflow-y: auto;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.chat-message {
+  margin-bottom: 12px;
+  padding: 10px 15px;
+  border-radius: 12px;
+  max-width: 80%;
+}
+
+.chat-user {
+  background: #2196F3;
+  color: white;
+  margin-left: auto;
+  text-align: right;
+}
+
+.chat-assistant {
+  background: white;
+  border: 1px solid #e0e0e0;
+}
+
+/* Radar chart container */
+.radar-container {
+  padding: 20px;
+}
+
+/* Quality findings table severity badges */
+.badge-critical {
+  background-color: #dc3545;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.badge-major {
+  background-color: #fd7e14;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.badge-minor {
+  background-color: #ffc107;
+  color: #333;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Demo mode banner */
+.alert-info {
+  border-radius: 8px;
+  border-left: 4px solid #00BCD4;
+}
+
+/* Sidebar study info */
+.sidebar hr {
+  border-color: rgba(255,255,255,0.1);
+  margin: 10px 15px;
+}

@@ -1,0 +1,20 @@
+Type: shiny
+Title: Clinical Trial Data Quality & AI Review Dashboard
+Version: 1.0.0
+Description: RShiny dashboard for automated clinical trial data review, quality
+    monitoring, and AI-powered data exploration. Built with CDISC SDTM-compliant
+    synthetic data for a medical device surgical trial.
+Depends:
+    shiny,
+    shinydashboard,
+    plotly,
+    DT,
+    dplyr,
+    tidyr,
+    readr,
+    lubridate,
+    stringr,
+    httr2,
+    jsonlite,
+    ggplot2,
+    scales
