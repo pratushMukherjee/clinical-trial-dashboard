@@ -7,6 +7,10 @@
 
 > An RShiny dashboard for automated clinical trial data review, quality monitoring, and AI-powered data exploration -- built with CDISC SDTM-compliant synthetic data for a medical device surgical trial.
 
+### [Live Demo](https://pratushmukherjee.shinyapps.io/clinical-trial-dashboard/) -- no setup required, runs in Demo Mode
+
+![Data Overview](www/screenshots/dashboard_overview.png)
+
 ## Overview
 
 This dashboard demonstrates end-to-end clinical data review capabilities for a simulated MedTech surgical device trial (SURG-2024-001), including:
@@ -107,8 +111,12 @@ This project uses **synthetic clinical trial data** generated to comply with CDI
 ### Data Overview
 Explore SDTM domains with interactive data tables, KPI value boxes (total subjects, sites, study duration, completion rate), and plotly visualizations of treatment arm distribution, age distribution, and demographics breakdowns.
 
+![Data Overview](www/screenshots/dashboard_overview.png)
+
 ### Data Quality Radar
 The centerpiece module. Runs automated quality checks across all domains and displays results as a radar chart scoring 5 dimensions (Completeness, Consistency, Validity, Timeliness, Accuracy). Detailed findings table with severity-coded rows, filterable by domain, check type, and severity. Export findings as CSV.
+
+![Data Quality Radar](www/screenshots/dashboard_quality_radar.png)
 
 ### AI Query Refiner
 Transform informal questions ("patients with bad liver numbers") into precise, CDISC-compliant queries with:
@@ -119,6 +127,8 @@ Transform informal questions ("patients with bad liver numbers") into precise, C
 
 Works in Demo Mode with 10+ keyword-matched patterns, or live with OpenAI GPT-4.
 
+![Query Refiner](www/screenshots/dashboard_query_refiner.png)
+
 ### Protocol Deviation Classifier
 ML-powered text classification using TF-IDF + Logistic Regression (scikit-learn):
 - Single or batch classification of deviation descriptions
@@ -127,6 +137,8 @@ ML-powered text classification using TF-IDF + Logistic Regression (scikit-learn)
 - 90.6% cross-validation accuracy
 - R-native keyword fallback when Python is unavailable
 
+![Protocol Deviation Classifier](www/screenshots/dashboard_classifier.png)
+
 ### Data Chat
 Natural language interface for data exploration:
 - Chat-style UI with quick-action buttons
@@ -134,9 +146,13 @@ Natural language interface for data exploration:
 - Generated R code shown for transparency
 - 9+ pre-programmed queries in Demo Mode
 
+![Data Chat](www/screenshots/dashboard_data_chat.png)
+
 ### Automated Checks
 - **Edit Checks**: 6 pre-built clinical validation rules with pass/fail status
 - **Dataset Comparison**: Upload a second CSV to diff records (new, deleted, modified)
+
+![Automated Checks](www/screenshots/dashboard_automated_checks.png)
 
 ## Testing
 
