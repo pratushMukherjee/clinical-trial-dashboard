@@ -53,7 +53,7 @@ ui <- dashboardPage(
 
       tabItem(tabName = "quality_radar",
         h2("Data Quality Radar"),
-        p("Automated quality scanning coming in Phase 3...")
+        data_quality_radar_ui("quality_radar")
       ),
 
       tabItem(tabName = "query_refiner",
@@ -73,7 +73,7 @@ ui <- dashboardPage(
 
       tabItem(tabName = "automated_checks",
         h2("Automated Checks"),
-        p("Automated data validation coming in Phase 3...")
+        automated_checks_ui("automated_checks")
       )
     )
   )

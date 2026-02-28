@@ -13,4 +13,6 @@ server <- function(input, output, session) {
 
   # Module servers
   data_overview_server("overview", datasets)
+  data_quality_radar_server("quality_radar", datasets)
+  automated_checks_server("automated_checks", datasets)
 }
